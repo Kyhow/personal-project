@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="favicon.ico" />
+    <style>
+        @font-face {
+            font-family: W95FA;
+            src: url('font/W95FA.OTF');
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="background">
+        <div class="icon flex">
+            <img src="img/icon-bin.png" alt="">
+            <p><span>Corbeille</span></p>
+        </div>
+        <div class="icon flex">
+            <img src="img/icon-computer.png" alt="">
+            <p><span>Ordinateur</span></p>
+        </div>
+    </div>
+
+    <div id="shutdown-pop">
+        
+    </div>
+
+    <footer id="taskbar" class="flex taskbar lightgray">
+        <div id="start-menu" class="flex taskbar lightgray border-black-gray">
+            <img src="img/logo-menu.png" alt="" id="logo-menu" class="flex taskbar">
+            <p class="flex taskbar">Démarrer</p>
+            <div id="menu-content">
+                <div id="menu-container" class="flex lightgray border-black-gray">
+                    <div id="sidebar">Windows 95</div>
+                    <div class="flex lightgray" id="menu">
+                        <div class="lightgray flex menu-div">
+                            <img src="img/icon-programs.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Programmes</a>
+                            <div class="arrow-right"></div>
+                            <div class="submenu">
+
+                            </div>
+                        </div>
+                        <div class="lightgray flex">
+                            <img src="img/icon-documents.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Documents</a>
+                            <div class="arrow-right"></div>
+                        </div>
+                        <div class="lightgray flex">
+                            <img src="img/icon-settings.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Paramètres</a>
+                            <div class="arrow-right"></div>
+                        </div>
+                        <div class="lightgray flex">
+                            <img src="img/icon-find.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Rechercher</a>
+                            <div class="arrow-right"></div>
+                        </div>
+                        <div class="lightgray flex">
+                            <img src="img/icon-help.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Aide</a>
+                        </div>
+                        <div class="lightgray flex">
+                            <img src="img/icon-run.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Exécuter</a>
+                        </div>
+                        <hr>
+                        <div class="lightgray flex">
+                            <img src="img/icon-suspend.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Veille</a>
+                        </div>
+                        <div class="lightgray flex" id="shutdown">
+                            <img src="img/icon-shutdown.png" class="menu-icon" alt="">
+                            <a href="#" class="menu-text">Arrêter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottom-right" class="flex lightgray">
+            <div class="lightgray">
+                <img src="img/icon-sound.png" alt="" class="br-icon flex">
+            </div>
+            <div>
+                <h2 id="actualHour" class="flex">00:00</h2>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
